@@ -1,0 +1,63 @@
+{
+  "origin": "HLAgent/data/examples from local original checkout",
+  "source_commit": "a2e176149d1df03b7ac72d8d331638f9f9bd7a9a",
+  "genome_build": 18,
+  "imgt": "3320",
+  "dictionary_mode": "reused, not regenerated",
+  "files": [
+    {
+      "path": "input/cohort.hped",
+      "source_path": "wtccc_filtered_58C_RA.hatk.300+300.hped",
+      "bytes": 57984,
+      "sha256": "fa77c6d9ae7c27772c776dca365a7fa2287f5640401606eda128d5d662d53e9f"
+    },
+    {
+      "path": "input/genotypes.bed",
+      "source_path": "wtccc_filtered_58C_RA.hatk.300+300.hg18.chr6.29-34mb.bed",
+      "bytes": 170253,
+      "sha256": "cf7217184f6c37b9d7899b511c3dd41b392b0b393ef3dec2e7208ecea5354b8c"
+    },
+    {
+      "path": "input/genotypes.bim",
+      "source_path": "wtccc_filtered_58C_RA.hatk.300+300.hg18.chr6.29-34mb.bim",
+      "bytes": 30640,
+      "sha256": "cfd4edcc394e42a8995e539503c738a14a51e133995f95ff5ad504ecd21b9bfb"
+    },
+    {
+      "path": "input/genotypes.fam",
+      "source_path": "wtccc_filtered_58C_RA.hatk.300+300.hg18.chr6.29-34mb.fam",
+      "bytes": 9984,
+      "sha256": "0bf391c1418e2594299d418a336e24ea663ff3907d411e16dc40442c3bd64c1e"
+    },
+    {
+      "path": "dictionary/HLA_ALLELE_TABLE.imgt3320.hat",
+      "source_path": "RESULT_EXAMPLE/HLA_ALLELE_TABLE.imgt3320.hat",
+      "bytes": 536787,
+      "sha256": "5cee734fb55fd5f6ab92ea80f5ad4b13fc165ca135d894a39f7eb1f05b0aeb2d"
+    },
+    {
+      "path": "dictionary/HLA_DICTIONARY_AA.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_DICTIONARY_AA.hg18.imgt3320.txt",
+      "bytes": 4684155,
+      "sha256": "74ad286ee1754e625ffdf6451674110536a3ee1048009914e5863b4ec1a40084"
+    },
+    {
+      "path": "dictionary/HLA_DICTIONARY_AA.hg18.imgt3320.map",
+      "source_path": "RESULT_EXAMPLE/HLA_DICTIONARY_AA.hg18.imgt3320.map",
+      "bytes": 93124,
+      "sha256": "dd7a729aa878bf9b665830dc81df388cd475b68ed96c5620e16753f6d2469ed9"
+    },
+    {
+      "path": "dictionary/HLA_DICTIONARY_SNPS.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_DICTIONARY_SNPS.hg18.imgt3320.txt",
+      "bytes": 8749845,
+      "sha256": "f39709bdeefda83e188ac10e825709de94c7d4a8ca2b98903b08c9f23fd2169c"
+    },
+    {
+      "path": "dictionary/HLA_DICTIONARY_SNPS.hg18.imgt3320.map",
+      "source_path": "RESULT_EXAMPLE/HLA_DICTIONARY_SNPS.hg18.imgt3320.map",
+      "bytes": 2026889,
+      "sha256": "56ba21f8b6894d4d6116cbbb4ae15e95e173a499f0af22b601eab449876948b3"
+    }
+  ]
+}

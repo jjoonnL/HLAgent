@@ -1,0 +1,62 @@
+{
+  "origin": "Original HLAgent data/examples",
+  "source_commit": "a2e176149d1df03b7ac72d8d331638f9f9bd7a9a",
+  "genome_build": 18,
+  "imgt": "3320",
+  "files": [
+    {
+      "path": "RA.phe",
+      "source_path": "wtccc_filtered_58C_RA.hatk.300+300.phe",
+      "sha256": "094887faa5c2edcf56950441e4f0f180133656f0f3573941b46a3bc65bf69236",
+      "bytes": 5795
+    },
+    {
+      "path": "HLA_MAPTABLE_A.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_MAPTABLE_A.hg18.imgt3320.txt",
+      "sha256": "0457dc2ebb17a45a854ad10264a08d766039b59c20b01fd6e09c85d3406d9f88",
+      "bytes": 2304690
+    },
+    {
+      "path": "HLA_MAPTABLE_B.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_MAPTABLE_B.hg18.imgt3320.txt",
+      "sha256": "eb1502e28eeeba3e3df79203ef5579d30ba70e65acaf9b83ad51c7a9829f7438",
+      "bytes": 2802231
+    },
+    {
+      "path": "HLA_MAPTABLE_C.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_MAPTABLE_C.hg18.imgt3320.txt",
+      "sha256": "5801a3b88fa4ce5875942e5be2c6ffa5f031a6d7a35cb4c727c8505f45470bf6",
+      "bytes": 2257892
+    },
+    {
+      "path": "HLA_MAPTABLE_DPA1.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_MAPTABLE_DPA1.hg18.imgt3320.txt",
+      "sha256": "acc25500566bc55f067578f0d9e53d8bcbe930b182ffd2b5d5bf14f6f1175b60",
+      "bytes": 18656
+    },
+    {
+      "path": "HLA_MAPTABLE_DPB1.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_MAPTABLE_DPB1.hg18.imgt3320.txt",
+      "sha256": "a7baf46bb25c9ffda25367459e05d79a926c673a0e8718746814c5811b3849f5",
+      "bytes": 374341
+    },
+    {
+      "path": "HLA_MAPTABLE_DQA1.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_MAPTABLE_DQA1.hg18.imgt3320.txt",
+      "sha256": "d92fcfc87a6fdba213d1a7247ff48a8d9fc5d7ceaece0a1188c70d73edc355d7",
+      "bytes": 24557
+    },
+    {
+      "path": "HLA_MAPTABLE_DQB1.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_MAPTABLE_DQB1.hg18.imgt3320.txt",
+      "sha256": "8f98c96aaa96d1e6a7c3cb21e4cc3c7837d6c5f5bb481649a8c7ad655f76d468",
+      "bytes": 465522
+    },
+    {
+      "path": "HLA_MAPTABLE_DRB1.hg18.imgt3320.txt",
+      "source_path": "RESULT_EXAMPLE/HLA_MAPTABLE_DRB1.hg18.imgt3320.txt",
+      "sha256": "87f9da35a3aa0520d2fe2cf8b249dad4ac10e5e40f6196f2da359b034b316831",
+      "bytes": 1016697
+    }
+  ]
+}

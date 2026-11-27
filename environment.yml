@@ -1,0 +1,11 @@
+name: hlagent
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.12
+  - ollama=0.32.15
+  - python-dotenv=1.2.1
+  - rich=13.7.1
+  - streamlit=1.51.0
+  - pypdf=6.1.3

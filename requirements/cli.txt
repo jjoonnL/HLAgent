@@ -1,0 +1,2 @@
+# Optional terminal presentation; analysis dependencies stay in Docker.
+rich==13.7.1

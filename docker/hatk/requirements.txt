@@ -1,0 +1,13 @@
+numpy==1.24.4
+pandas==1.5.3
+python-dateutil==2.9.0.post0
+pytz==2025.2
+six==1.17.0
+matplotlib==3.7.5
+contourpy==1.1.1
+cycler==0.12.1
+fonttools==4.55.3
+kiwisolver==1.4.7
+packaging==24.2
+pillow==10.4.0
+pyparsing==3.1.4

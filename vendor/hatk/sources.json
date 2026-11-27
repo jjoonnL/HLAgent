@@ -1,0 +1,145 @@
+{
+  "source": "Local original HLAgent checkout, src/tools/HATK",
+  "commit": "a2e176149d1df03b7ac72d8d331638f9f9bd7a9a",
+  "patches": [
+    "Removed dotenv import and automatic load_dotenv() from encodeHLA.py. The worker sets HLAGENT_MAIN_DIRECTORY explicitly; analysis algorithms are unchanged.",
+    "OmnibusTest_BHv5.R: added explicit convergence failure checks after each glm; haplotype-row model and statistics otherwise unchanged.",
+    "IMGT2Seq.py: require a supplied local snapshot and remove the network downloader import. Sequence processing is unchanged.",
+    "GenerateHAT.py: use DataFrame.applymap instead of DataFrame.map for the pinned pandas 1.5.3 image. Elementwise mapping is unchanged.",
+    "NfieldDictionary.py and encodeHLA.py: preserve numeric allele fields longer than three digits, such as DPB1*1000:01. Field count and first-occurrence sequence selection are unchanged."
+  ],
+  "files": [
+    {
+      "path": "src/tools/HATK/NomenCleaner/NomenCleaner.py",
+      "source_path": "NomenCleaner/NomenCleaner.py",
+      "original_sha256": "716897dfe253217858e548f79154fa3a19dacb0c5fa729a134814a05ecc2f35a",
+      "sha256": "716897dfe253217858e548f79154fa3a19dacb0c5fa729a134814a05ecc2f35a"
+    },
+    {
+      "path": "src/tools/HATK/NomenCleaner/src/CHPED.py",
+      "source_path": "NomenCleaner/src/CHPED.py",
+      "original_sha256": "53aea099da750295ed6639df1d69fabf3eb7fb2b6b6c06bb80c4243b08b1323f",
+      "sha256": "53aea099da750295ed6639df1d69fabf3eb7fb2b6b6c06bb80c4243b08b1323f"
+    },
+    {
+      "path": "src/tools/HATK/NomenCleaner/src/HPED.py",
+      "source_path": "NomenCleaner/src/HPED.py",
+      "original_sha256": "b1377380f19179f37b2f86bf52fe6b32a4720605cb37dd55711eda92ed608fa7",
+      "sha256": "b1377380f19179f37b2f86bf52fe6b32a4720605cb37dd55711eda92ed608fa7"
+    },
+    {
+      "path": "src/tools/HATK/bMarkerGenerator/bMarkerGenerator.py",
+      "source_path": "bMarkerGenerator/bMarkerGenerator.py",
+      "original_sha256": "f332e540ace1c6ea137ea866e570b57add8a61faeb8dd29bfa4dea6bb9d9ba21",
+      "sha256": "f332e540ace1c6ea137ea866e570b57add8a61faeb8dd29bfa4dea6bb9d9ba21"
+    },
+    {
+      "path": "src/tools/HATK/bMarkerGenerator/bMarker.py",
+      "source_path": "bMarkerGenerator/bMarker.py",
+      "original_sha256": "8b3fb1b35fd2997d1308f593fee45ba02091d458c777cd557c8be4f30b26e702",
+      "sha256": "8b3fb1b35fd2997d1308f593fee45ba02091d458c777cd557c8be4f30b26e702"
+    },
+    {
+      "path": "src/tools/HATK/bMarkerGenerator/checkBIM.py",
+      "source_path": "bMarkerGenerator/checkBIM.py",
+      "original_sha256": "cb043fbb2dc81c6f03b7c1fc1cd852b5626d6e039a03917aab38017d7447b6ef",
+      "sha256": "cb043fbb2dc81c6f03b7c1fc1cd852b5626d6e039a03917aab38017d7447b6ef"
+    },
+    {
+      "path": "src/tools/HATK/bMarkerGenerator/src/encodeVariants.py",
+      "source_path": "bMarkerGenerator/src/encodeVariants.py",
+      "original_sha256": "662bfbdcc80a6cbabdd89a4674be973e353d4f0aa3d570b3b926ccd87c6fa590",
+      "sha256": "662bfbdcc80a6cbabdd89a4674be973e353d4f0aa3d570b3b926ccd87c6fa590"
+    },
+    {
+      "path": "src/tools/HATK/bMarkerGenerator/src/encodeHLA.py",
+      "source_path": "bMarkerGenerator/src/encodeHLA.py",
+      "original_sha256": "eaa62b02dcc98f6223ca577029182d331069cb581f8043acdfab939614218688",
+      "sha256": "88d97c559244c35efd5f82bb83680cbffac37dd1311c07c7f6a4ec61342a6c90"
+    },
+    {
+      "path": "src/tools/HATK/bMarkerGenerator/src/HLAtoSequences.py",
+      "source_path": "bMarkerGenerator/src/HLAtoSequences.py",
+      "original_sha256": "fdebee96280f0dd2f1c735e18f339e51f6ecfff2ff4658430df2161ba8dfa046",
+      "sha256": "fdebee96280f0dd2f1c735e18f339e51f6ecfff2ff4658430df2161ba8dfa046"
+    },
+    {
+      "path": "src/tools/HATK/src/PLINK_Bash.py",
+      "source_path": "src/PLINK_Bash.py",
+      "original_sha256": "8ae8f1fab300afd53652c864f44de3de0a796cd779b9674a4a633a4bcd5977c0",
+      "sha256": "8ae8f1fab300afd53652c864f44de3de0a796cd779b9674a4a633a4bcd5977c0"
+    },
+    {
+      "path": "src/tools/HATK/src/PLINK_GT.py",
+      "source_path": "src/PLINK_GT.py",
+      "original_sha256": "5096e555fa638284facd3ebc45e91fbf4576fb786ea6dadf4d835a933670203e",
+      "sha256": "5096e555fa638284facd3ebc45e91fbf4576fb786ea6dadf4d835a933670203e"
+    },
+    {
+      "path": "src/tools/HATK/src/HATK_Error.py",
+      "source_path": "src/HATK_Error.py",
+      "original_sha256": "3d301241adeea2250d3160400fd374c6c923e0fc3cfe4419bd5bc82a8bdf6275",
+      "sha256": "3d301241adeea2250d3160400fd374c6c923e0fc3cfe4419bd5bc82a8bdf6275"
+    },
+    {
+      "path": "src/tools/HATK/src/util.py",
+      "source_path": "src/util.py",
+      "original_sha256": "b5f94b39c7847a73ee3a735841597febb731474037a831aa28c79a486fff02cc",
+      "sha256": "b5f94b39c7847a73ee3a735841597febb731474037a831aa28c79a486fff02cc"
+    },
+    {
+      "path": "src/tools/HATK/IMGT2Seq/data_for_imgt2seq/HLA_EXON1_START_CODON_POSITIONS_hg18.txt",
+      "source_path": "IMGT2Seq/data_for_imgt2seq/HLA_EXON1_START_CODON_POSITIONS_hg18.txt",
+      "original_sha256": "15003b7ad95216446678ebb788e7c76d03f2740530c4b046f2cb9c5b48dff2af",
+      "sha256": "15003b7ad95216446678ebb788e7c76d03f2740530c4b046f2cb9c5b48dff2af"
+    },
+    {
+      "path": "src/tools/HATK/OmnibusTest/OmnibusTest_BHv5.R",
+      "source_path": "OmnibusTest/OmnibusTest_BHv5.R",
+      "original_sha256": "0156dd28260c971163794f5f48451db4ce044bbbfabd6d74674b394496781252",
+      "sha256": "239a852c6940a940ef62c04bda34278aefec4953029f1f48ec0d08483785619d"
+    },
+    {
+      "path": "src/tools/HATK/IMGT2Seq/IMGT2Seq.py",
+      "source_path": "IMGT2Seq/IMGT2Seq.py",
+      "original_sha256": "1ba897eff346c8272d6c2de26643ec1c8c7cbe67af7684d2676b987ad2163fe2",
+      "sha256": "8b22636ef0236e05bcaddea8a0cde54166c7b95033bc21f335e7ba88532efa13"
+    },
+    {
+      "path": "src/tools/HATK/IMGT2Seq/src/NfieldDictionary.py",
+      "source_path": "IMGT2Seq/src/NfieldDictionary.py",
+      "original_sha256": "78d09f7cb1b426ec1ed4e1895cbce2051055f5e0057d8094da4e3709f203dd0f",
+      "sha256": "1d4fabfee26f7df957ff14ac5fee7084e2101db0808b3d52579683a8e6305e7f"
+    },
+    {
+      "path": "src/tools/HATK/IMGT2Seq/src/GenerateHAT.py",
+      "source_path": "IMGT2Seq/src/GenerateHAT.py",
+      "original_sha256": "c250c467ab08570b751f52d392030baccef38e876eb4ae1697d6758c793c7f81",
+      "sha256": "d9ba96d4e0ada583e80ebf4e4722616809fbcd51acc0088663c66bb326a650fe"
+    },
+    {
+      "path": "src/tools/HATK/IMGT2Seq/src/ProcessIMGT.py",
+      "source_path": "IMGT2Seq/src/ProcessIMGT.py",
+      "original_sha256": "baf3ae7f986038b5205ccfde2cfc35a7cf1036e4f52e5ad743bd37e0fbe6f7e2",
+      "sha256": "baf3ae7f986038b5205ccfde2cfc35a7cf1036e4f52e5ad743bd37e0fbe6f7e2"
+    },
+    {
+      "path": "src/tools/HATK/IMGT2Seq/src/AvailableHLAs.py",
+      "source_path": "IMGT2Seq/src/AvailableHLAs.py",
+      "original_sha256": "034473b2b8060f72619535f8958bfec6cd1497dfedf052c0706aedc4aaeb867c",
+      "sha256": "034473b2b8060f72619535f8958bfec6cd1497dfedf052c0706aedc4aaeb867c"
+    },
+    {
+      "path": "src/tools/HATK/IMGT2Seq/src/getSeqChunk.py",
+      "source_path": "IMGT2Seq/src/getSeqChunk.py",
+      "original_sha256": "7a712bb6566fcf41dc514a00d0b1a20085f9dbffdc437a3731e0de5060c6e0a4",
+      "sha256": "7a712bb6566fcf41dc514a00d0b1a20085f9dbffdc437a3731e0de5060c6e0a4"
+    },
+    {
+      "path": "src/tools/HATK/IMGT2Seq/src/IMGT2Seq_Output.py",
+      "source_path": "IMGT2Seq/src/IMGT2Seq_Output.py",
+      "original_sha256": "21a2e16e60f88c5587ce2c360a9f671bc69efcb28014d7b9850c94b47375b295",
+      "sha256": "21a2e16e60f88c5587ce2c360a9f671bc69efcb28014d7b9850c94b47375b295"
+    }
+  ]
+}

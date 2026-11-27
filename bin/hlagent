@@ -1,0 +1,26 @@
+#!/bin/sh
+# Resolve the installed symlink without depending on the caller's directory.
+set -eu
+hlagent_script=$0
+while [ -L "$hlagent_script" ]; do
+    hlagent_directory=$(CDPATH='' cd -P "$(dirname "$hlagent_script")" && pwd)
+    hlagent_target=$(readlink "$hlagent_script")
+    case "$hlagent_target" in
+        /*) hlagent_script=$hlagent_target ;;
+        *) hlagent_script=$hlagent_directory/$hlagent_target ;;
+    esac
+done
+hlagent_root=$(CDPATH='' cd -P "$(dirname "$hlagent_script")/.." && pwd)
+cd "$hlagent_root"
+
+if ! command -v conda >/dev/null 2>&1; then
+    echo 'Conda was not found. Initialize Conda and create the hlagent environment.' >&2
+    exit 1
+fi
+
+if [ "${1-}" = web ]; then
+    shift
+    exec conda run --no-capture-output -n hlagent python -m streamlit run "$hlagent_root/web.py" "$@"
+fi
+
+exec conda run --no-capture-output -n hlagent python "$hlagent_root/agent.py" "$@"

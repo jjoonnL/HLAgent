@@ -1,0 +1,23 @@
+{
+  "source": "Original HLAgent prephased WTCCC RA example; AA marker rows only, without rephasing.",
+  "original_path": "../HLAgent/data/examples/OmnibusTest/wtccc_filtered_58C_RA.hatk.300+300.chr6.hg18.bgl.phased",
+  "original_sha256": "f858f61cd087f1e81073084d265d14e8138546ee611b9db1e0a611e3152e003e",
+  "transformation": "Kept the I id header and all M AA_ marker rows; whitespace normalized. Pair IDs checked against cohort.fam at runtime. No precomputed .aa or omnibus results used.",
+  "files": [
+    {
+      "path": "RA.phe",
+      "sha256": "094887faa5c2edcf56950441e4f0f180133656f0f3573941b46a3bc65bf69236",
+      "bytes": 5795
+    },
+    {
+      "path": "cohort.fam",
+      "sha256": "0bf391c1418e2594299d418a336e24ea663ff3907d411e16dc40442c3bd64c1e",
+      "bytes": 9984
+    },
+    {
+      "path": "phased-aa.bgl",
+      "sha256": "f44331da3e3a52534d0d2ae8dba6340a5637a8680c427acf78b7aa4781fea5d4",
+      "bytes": 1983770
+    }
+  ]
+}

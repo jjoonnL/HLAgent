@@ -1,0 +1,72 @@
+{
+  "repository": "https://github.com/dhkwnr97/HLAgent",
+  "commit": "a2e176149d1df03b7ac72d8d331638f9f9bd7a9a",
+  "files": [
+    {
+      "path": "input/1958BC.hg19.bed",
+      "source_path": "data/input/GenotypeExample/1958BC.hg19.bed",
+      "sha256": "680f16a573549eb9cdb8eb17730eb130af944bc7a0f5a8c51e0f52bae93508b3",
+      "bytes": 4605
+    },
+    {
+      "path": "input/1958BC.hg19.bim",
+      "source_path": "data/input/GenotypeExample/1958BC.hg19.bim",
+      "sha256": "c51eca9c6ae00be374f00736b15c6927d5f2250e2da5664f416051d879571634",
+      "bytes": 41136
+    },
+    {
+      "path": "input/1958BC.hg19.fam",
+      "source_path": "data/input/GenotypeExample/1958BC.hg19.fam",
+      "sha256": "48237ea47dbc5e1c24dfeb8a79564e3dd15651c93677bd9b1ee0b2be2c171637",
+      "bytes": 300
+    },
+    {
+      "path": "input/AGM.1958BC.hg19.COPY.LiftDown_hg18.NoAmbig+1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.aver.erate",
+      "source_path": "data/input/GenotypeExample/AGM.1958BC.hg19.COPY.LiftDown_hg18.NoAmbig+1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.aver.erate",
+      "sha256": "67bf4df8e7ceed0ba1e46dda734dfbc49e963cd39e437be9f9038ccf22097d6c",
+      "bytes": 19
+    },
+    {
+      "path": "input/AGM.1958BC.hg19.COPY.LiftDown_hg18.NoAmbig+1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.mach_step.avg.clpsB",
+      "source_path": "data/input/GenotypeExample/AGM.1958BC.hg19.COPY.LiftDown_hg18.NoAmbig+1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.mach_step.avg.clpsB",
+      "sha256": "677bb7fb9258ca57af3fe5d6acfb89928f2b47c0fce770d0b1631e5668bb32ed",
+      "bytes": 334409
+    },
+    {
+      "path": "reference/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.FRQ.frq",
+      "source_path": "data/reference_panels/1000G_REF/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.FRQ.frq",
+      "sha256": "8fdb356430f2ea9418810ecb4be863c9eacd5820ce42f8a2c527a853d25f3312",
+      "bytes": 593258
+    },
+    {
+      "path": "reference/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.bed",
+      "source_path": "data/reference_panels/1000G_REF/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.bed",
+      "sha256": "165e1e4817f8a7e88909f0ce46761825bbb163fdf5c1b2359423b48d55cdce8d",
+      "bytes": 1010019
+    },
+    {
+      "path": "reference/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.bgl.phased",
+      "source_path": "data/reference_panels/1000G_REF/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.bgl.phased",
+      "sha256": "5697238b7f1fb7eb903b8d71ceeb8c74c89d90fa9f321ff3fe62e6d948873405",
+      "bytes": 16268348
+    },
+    {
+      "path": "reference/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.bim",
+      "source_path": "data/reference_panels/1000G_REF/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.bim",
+      "sha256": "6383b70d0cb36a955421ef5e61f1dc2664eb029155c98ed3860332d93c9ae7da",
+      "bytes": 238217
+    },
+    {
+      "path": "reference/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.fam",
+      "source_path": "data/reference_panels/1000G_REF/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.fam",
+      "sha256": "a6971a3b9b7fd344009619d7d2803d7c7d77aae2b1974cf6b1b29a0fbae293cd",
+      "bytes": 12575
+    },
+    {
+      "path": "reference/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.markers",
+      "source_path": "data/reference_panels/1000G_REF/1000G_REF.EUR.chr6.hg18.29mb-34mb.inT1DGC.markers",
+      "sha256": "5b806712ffd34d08a21359d43f46c12674599ea2cc0e8c89fd1a37887080723d",
+      "bytes": 206153
+    }
+  ]
+}

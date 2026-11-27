@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "file": "CookHLA-2021.pdf",
+      "doi": "10.1038/s41467-021-21541-5",
+      "download_url": "https://www.nature.com/articles/s41467-021-21541-5.pdf",
+      "downloaded": "2026-11-22",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "sha256": "12c382d7381c2f79cd8be8d405149dcc6a7c9473b8f8832c9c65b817f49a6677",
+      "pages": 11,
+      "modified": false
+    },
+    {
+      "file": "HATK-2021.pdf",
+      "doi": "10.1093/bioinformatics/btaa684",
+      "download_url": "https://pdfs.semanticscholar.org/dbbf/9b188cc536cb459e591eb383191b58d35a45.pdf",
+      "downloaded": "2026-11-22",
+      "license": "CC-BY-NC-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "sha256": "dbb8c40675d7302024b8925794cedb20e4326e06efdf64b9e433968500fa720b",
+      "pages": 3,
+      "modified": false
+    }
+  ]
+}

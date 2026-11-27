@@ -1,0 +1,23 @@
+<script>
+// Keep the page scrollable when the pointer is over an idle sidebar.
+const doc = window.parent.document;
+if (!doc.hlagentSidebarWheel) {
+  doc.hlagentSidebarWheel = (event) => {
+    if (event.ctrlKey || event.shiftKey || !event.deltaY) return;
+    const sidebar = event.target.closest('[data-testid="stSidebar"]');
+    if (!sidebar) return;
+    // Let open controls and overflowing sidebar content keep their own scrolling.
+    for (let node = event.target; node && sidebar.contains(node); node = node.parentElement) {
+      const overflow = window.parent.getComputedStyle(node).overflowY;
+      if (/(auto|scroll)/.test(overflow) && node.scrollHeight > node.clientHeight &&
+          (event.deltaY < 0 ? node.scrollTop > 0 : node.scrollTop + node.clientHeight < node.scrollHeight - 1)) return;
+    }
+    const main = doc.querySelector('[data-testid="stMain"]');
+    if (!main) return;
+    const scale = event.deltaMode === 1 ? 16 : event.deltaMode === 2 ? main.clientHeight : 1;
+    main.scrollTop += event.deltaY * scale;
+    event.preventDefault();
+  };
+  doc.addEventListener('wheel', doc.hlagentSidebarWheel, {passive: false});
+}
+</script>
